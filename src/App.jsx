@@ -1,14 +1,14 @@
-
 import './App.css'
 import Header from './Components/Header'
-import TrendingMovieList from './Components/TrendingMovies'
+import Slider from './Components/Slider'
+
 
 function App() {
 
   return (
    <div className=''>
       <Header/>
-    {/* <TrendingMovieList/> */}
+         <Slider/>
    </div>
   )
 }
