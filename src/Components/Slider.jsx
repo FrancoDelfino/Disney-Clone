@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import { getTrendingMovies } from "../Services/trendingMoviesService";
+import { getTrendingMovies } from "../Services/GlobalApi.jsx";
 import { HiChevronLeft, HiChevronRight } from 'react-icons/hi2';
 
 const IMAGE_BASE_URL = "https://image.tmdb.org/t/p/original"
@@ -23,10 +23,10 @@ const Slider = () => {
   }, []);
 
   const sliderRight = (element) => {
-    element.scrollLeft -= screenWidth - 109
+    element.scrollLeft -= screenWidth - 121
   }
   const sliderLeft = (element) => {
-    element.scrollLeft += screenWidth - 109
+    element.scrollLeft += screenWidth - 121
   }
 
 

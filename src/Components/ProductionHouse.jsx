@@ -1,4 +1,4 @@
-import React from 'react'
+    import React from 'react'
 import disney from "../assets/Images/disney-logo.png"
 import marvel from "../assets/Images/marvel.png"
 import natGeo from "../assets/Images/nationalG.png"
