@@ -1,7 +1,7 @@
 import './App.css'
 import Header from './Components/Header'
 import ProductionHouse from './Components/ProductionHouse';
-import Prueba from './Components/Prueba';
+import GenreMovieList from './Components/GenreMovieList';
 
 import Slider from './Components/Slider'
 import fondo from "./assets/Images/bg-color.jpg";
@@ -16,7 +16,7 @@ function App() {
       <Header />
       <Slider />
       <ProductionHouse />
-      <Prueba/>
+      <GenreMovieList />
     </div>
   )
 }
